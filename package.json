@@ -7,8 +7,12 @@
     "porg": "./bin.js"
   },
   "scripts": {
+    "contrib:generate": "all-contributors generate",
+    "contrib:add": "all-contributors add",
     "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint \"!(node_modules)/**/*.js\"",
+    "pretest": "npm run lint",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -25,5 +29,16 @@
     "johnny-five": "^0.14.1",
     "optimist": "^0.6.1",
     "split2": "^2.2.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^4.11.0",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.11.1"
   }
 }
