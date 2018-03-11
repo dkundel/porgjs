@@ -1,0 +1,29 @@
+{
+  "name": "porgjs",
+  "version": "1.0.0",
+  "description": "🐧 Controlling a plush Porg via Node.js",
+  "main": "index.js",
+  "bin": {
+    "porg": "./bin.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkundel/porgjs.git"
+  },
+  "keywords": ["nodebots", "arduino", "porg", "johnny-five"],
+  "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkundel/porgjs/issues"
+  },
+  "homepage": "https://github.com/dkundel/porgjs#readme",
+  "dependencies": {
+    "johnny-five": "^0.14.1",
+    "optimist": "^0.6.1",
+    "split2": "^2.2.0"
+  }
+}
