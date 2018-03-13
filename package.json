@@ -1,6 +1,6 @@
 {
-  "name": "porgjs",
-  "version": "1.0.0",
+  "name": "porg",
+  "version": "1.0.3",
   "description": "🐧 Controlling a plush Porg via Node.js",
   "main": "index.js",
   "bin": {
